@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guest Information</title>
+    <style>
+        body {
+            background-image: url('https://th.bing.com/th/id/OIP.nNxyloKdSItP1jjEu5BFjwHaE-?pid=ImgDet&rs=1');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            image-rendering: pixelated;
+            image-rendering: -moz-crisp-edges;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            background-color: #007acc;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #005fa3;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #004c87;
+        }
+    </style>
+</head>
+<body>
+    <h1>Guest Information</h1>
+    <form action="response.html" method="post">
+        <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guests" required><br><br>
+
+        <label for="days">Number of Days:</label>
+        <input type="number" id="days" name="days" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
