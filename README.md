@@ -1,4 +1,4 @@
-Trvael Planner Project to recommend pages to user based on content filtering algorithms. 
+Trvael Planner Project to recommend places to user based on content filtering algorithms. 
 
 php for database linking.
 
