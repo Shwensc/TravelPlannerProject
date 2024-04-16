@@ -1,2 +1,0 @@
-dbname:travelhomepage
-table name:logininfo
