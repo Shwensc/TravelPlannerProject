@@ -1,7 +1,3 @@
 Trvael Planner Project to recommend places to user based on content filtering algorithms. 
-
-php for database linking.
-
-conetent fiultering algorithm implemented using python
-
-database used: MySql, 
+Currently hosted only on local machine using flask.
+Hybrid filtering algorithm
